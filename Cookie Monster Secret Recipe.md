@@ -26,14 +26,17 @@ Dica fornecida pelo desafio:
 #### Resolução
 
 Ao clicar no link, fui direcionado ao seguinte site:
+
 [![Captura-de-tela-2025-09-05-215849.png](https://i.postimg.cc/gJtZcbp3/Captura-de-tela-2025-09-05-215849.png)](https://postimg.cc/gXRJ45n0)
 
 Seguindo a dica, utilizei a ferramenta Inspecionar do navegador:
  - Cliquei com o botão direito na página -> Inspecionar -> aba Rede (Network) -> filtro Doc.
  - Inserindo qualquer e-mail e senha no formulário de login e clicando em Login, observei que a página login.php aparecia listada.
+   
 [![Captura-de-tela-2025-09-05-215926.png](https://i.postimg.cc/P5KZVw76/Captura-de-tela-2025-09-05-215926.png)](https://postimg.cc/yDgkkks9)
 
 Ao analisar os cabeçalhos dessa requisição, encontrei uma informação suspeita:
+
 [![Captura-de-tela-2025-09-05-220627.png](https://i.postimg.cc/6Qg8FLfh/Captura-de-tela-2025-09-05-220627.png)](https://postimg.cc/Z9PYdNg9)
 
 Dentro do campo secret_tipe, havia uma sequência codificada que parecia ser a flag. Para decodificá-la, utilizei a ferramenta [dCode](https://www.dcode.fr/en) obtendo o seguinte resultado:
@@ -43,4 +46,4 @@ Dentro do campo secret_tipe, havia uma sequência codificada que parecia ser a f
 Flag:
 >`picoCTF{c00k1e_m0nster_l0ves_c00kies_73110ED1}`
 
-Esse desafio foi uma ótima introdução às ferramentas de inspeção do navegador. Após alguns erros e tentativas, consegui compreender melhor como analisar requisições HTTP e explorar informações ocultas em páginas web — um conhecimento fundamental para segurança cibernética.
+Durante este desafio, aprendi a utilizar as ferramentas de inspeção do navegador para analisar elementos e documentos carregados na página. Isso me permitiu localizar a flag escondida e compreender melhor como informações podem estar ocultas no front-end, um conhecimento essencial em segurança cibernética.
