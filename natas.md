@@ -269,5 +269,10 @@ A solução para o Natas Level 15 utiliza a ferramenta SQLMap. Diferente do nív
 
 [![Screenshot-2025-11-28-15-36-18.png](https://i.postimg.cc/65XQ49qf/Screenshot-2025-11-28-15-36-18.png)](https://postimg.cc/yWLKwCFD)
 
+##Conclusão
+
+Os desafios do Natas 0 ao 15 demonstram, de forma progressiva, como vulnerabilidades simples podem evoluir para cenários complexos e realistas no contexto de segurança web. Ao longo dos níveis, é possível compreender que cada falha explorada — seja em formulários HTML, cabeçalhos HTTP, permissões de diretório, manipulação de cookies, injeção de comandos ou SQL Injection — nasce quase sempre de decisões inseguras no desenvolvimento, como a falta de sanitização de entrada, validações superficiais ou confiança excessiva no lado do cliente. Mais do que encontrar senhas, cada exercício reforça a importância de entender o funcionamento interno de aplicações web, interpretar o comportamento do servidor e pensar como um atacante. Ao mesmo tempo, evidencia o lado ético do aprendizado: explorar vulnerabilidades apenas em ambientes controlados e compreender que o objetivo final não é explorar sistemas reais, mas adquirir conhecimento para evitá-las, projetar aplicações seguras e atuar de forma responsável na área de segurança da informação.
+
+
 
 
